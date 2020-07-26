@@ -1,0 +1,49 @@
+.register-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('src/assets/discovery_background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register-card-left {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 384px;
+    padding: 48px;
+    height: calc(100vh - 96px);
+    box-shadow: 0px 0px 4px 0px rgba(102,102,102,1);
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.submit-button {
+    width: 180px;
+}
+
+.frontend-test {
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-top: 12px;
+}
+
+.horizontal-line {
+    width: 30%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    background-color: #bbbbbb;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-link {
+    color: #0079b8;
+}
