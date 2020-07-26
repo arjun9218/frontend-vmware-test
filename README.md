@@ -1,6 +1,7 @@
 # FrontendVmwareTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+This project is hosted in [GitHub pages](https://arjun9218.github.io/frontend-vmware-test)
 
 ## Development server
 
