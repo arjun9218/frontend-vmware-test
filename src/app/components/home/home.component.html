@@ -22,7 +22,7 @@
             <mat-list class="userslist">
                 <mat-list-item *ngFor="let user of users">
                     <h3 matLine> {{user.emailId}} ({{user.firstName}} {{user.lastName}}) </h3>
-                    <button>
+                    <button (click)="deleteUser(user.id)">
                         <mat-icon matListIcon>delete_outline</mat-icon>
                     </button>
                 </mat-list-item>
